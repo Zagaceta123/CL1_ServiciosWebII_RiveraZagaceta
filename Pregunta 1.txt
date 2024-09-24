@@ -1,0 +1,21 @@
+Arquitectura Orientada a Servicios (SOA)
+En una empresa de comercio electrónico, SOA facilita la modularización y reutilización de componentes en áreas clave como:
+
+1. Gestión de Inventarios: Un servicio autónomo que actualiza el stock en tiempo real, interactuando con ventas y logística.
+
+2. Procesamiento de Pagos: Servicio independiente que maneja diferentes métodos de pago.
+
+3. Logística y Envíos: Un servicio que coordina la entrega y notifica a los usuarios sobre el estado de sus pedidos.
+
+4. Atención al Cliente: Servicio que gestiona consultas, conectado con el CRM.
+
+Ejemplo: Cuando se realiza una compra, el servicio de inventarios verifica el stock y el servicio de logística organiza el envío, asegurando fluidez entre departamentos.
+
+Intervención de Microservicios
+Los microservicios permiten mayor flexibilidad y escalabilidad al dividir las aplicaciones en unidades más pequeñas y autónomas.
+
+1. Escalabilidad: En el procesamiento de pagos, un microservicio podría manejar cada método de pago de forma independiente, mejorando la eficiencia.
+
+2. Separación Funcional: La gestión de inventarios podría tener microservicios específicos para proveedores, tiendas físicas y seguimiento online.
+
+Ejemplo: Los envíos internacionales podrían ser gestionados por microservicios separados para distintas regiones, permitiendo ajustes sin afectar otras áreas.
